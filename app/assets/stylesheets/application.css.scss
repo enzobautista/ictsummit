@@ -1,0 +1,425 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+
+ */
+ section{
+ 	overflow-x:hidden;
+ }
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  height: 10vh;
+}
+.navlink{
+	margin-top: 1vh;
+}
+.navlink > a{
+	color:white!important;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.navlink > a:hover{
+	color:#CDDC39!important;
+}
+ .navlink > a:focus{
+      color:#CDDC39!important;
+ }
+.dropdown-toggle{
+	background-color:transparent!important;
+
+}
+ .navbar-default .navbar-nav > .active{
+ 	color:#CDDC39!important;
+ }
+.navbar .navbar-collapse {
+  text-align: center;
+}
+#index1{
+	height:37vh;
+	background-color: transparent;
+}
+#index1title{
+    color:black!important;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+.regbtn{
+	color:white!important;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	letter-spacing: 1px;
+	border:3px solid white;
+	width:200px;
+	height:40;
+	border-radius: 5px;
+	background-color: rgba(29, 49, 64, 0.1);
+}
+#index1text{
+    color:black!important;
+	font-family: 'Lora';
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 0px;
+}
+#landing{
+	height:100vh;
+	background-color: #f2f2f2;
+	background-image: url('/assets/bg3.png');
+	background-size: cover;
+}
+#index2-1{
+	min-height:100vh;
+	background-color: #f2f2f2;
+}
+#index3{
+	min-height:100vh;
+	background-color: #f2f2f2;
+}
+.navbar {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    z-index: 9999!important;
+}
+.navbar.scrolled {
+  background-color: rgba(29, 49, 64, 1)!important;
+}
+
+.navbar-noscroll {
+  background-color: white!important;
+}
+#particles-js{
+  width: 100%;
+  height: 15vh;
+  background: 
+  linear-gradient(
+    rgba(29, 49, 64, 1), 
+    rgba(29, 49, 64, 1)
+  );
+  /*background-image: url('/assets/disrupt2.png');*/
+  overflow-y:hidden;
+  background-position: 50% 75%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-repeat: no-repeat;
+}
+.aboutcard{
+	margin-top: 7vh;
+	background-color: transparent;
+	
+}
+.aboutcardin{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	background-color: rgba(29, 49, 64, 1);
+	height:80vh;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	border-radius: 5px;
+	padding-top: 3vh;
+	color:white;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.aboutcardtitle{
+	color:white!important;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.aboutcardin:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.aboutcardtext{
+	color:white!important;
+	font-family: 'Lora';
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 0px;
+}
+.cf1{
+	min-height:80vh;
+	background-color: #f2f2f2;
+}
+.cf2{
+	min-height:125vh;
+	background-color: white;
+}
+.abimg{
+	height:16vw;
+	width: 16vw;
+	background-size: cover;
+	background-image:url('/assets/dps.png');
+	overflow: hidden;
+	background-position: center;
+	border-radius: 50%; 
+}
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 2.5s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1.0; }
+}
+/**timeline**/
+.timlinecont1{
+  margin-top: 34vh;
+}
+.timlinecont2{
+  margin-top: 10vh;
+}
+.timelineheader{
+  text-align: center;
+}
+.timeliney{
+    color:white;
+    letter-spacing: 1px;
+  font-size: 24px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+ 
+}
+.timelineh{
+    color:white;
+    letter-spacing: 4px;
+  font-size: 32px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  margin-top: 0.5vh;
+ 
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+.hrred{
+  margin-top: 7px;
+   border: 2px solid #B62128;
+   width:52vw;
+}
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+  color:white;
+  margin-top: 50px;
+}
+
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 5px;
+  background-color: rgba(29, 49, 64, 1);
+  left: 50%;
+  margin-left: -1.5px;
+}
+
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li > .timeline-panel {
+  width: 30%;
+  float: left;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  margin-left: 16%;
+}
+.timeline > li > .timeline-inverted>.timeline-panel {
+  margin-right: 16vw;
+}
+
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #CDDC39;
+  z-index: 100;
+}
+
+.timeline > li > .timeline-badge1 {
+  color: #fff;
+  width: 50px;
+  height: 3px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #2682ff;
+  z-index: 100;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  margin-right: 16vw;
+}
+.timeline-panel:hover{
+  background-color:#595959!important;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.timeline-panel:hover .timeline-heading{
+  display:none;
+}
+.timeline-heading1{
+  display:none;
+}
+.timeline-panel:hover .timeline-heading1{
+  display: block;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline-panel:hover .timeline-title{
+	color:white;
+}
+.timeline-title {
+  margin-top: 0;
+  color: black;
+  float:right;
+   font-family: 'Lora', serif;
+  font-size: 22px;
+  letter-spacing: 0px;
+  font-weight: 400;
+
+}
+
+.timeline-titled {
+  margin-top: 0;
+  margin-left: 100px;
+  color: rgba(29, 49, 64, 1);
+  float:left;
+   font-size: 22px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+}
+.timeline-titlerd {
+  margin-top: 0;
+  margin-right: -7.5vw;
+  color: rgba(29, 49, 64, 1);
+  float:right;
+font-size: 22px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+
+}
+.timeline-titler {
+  margin-top: 0;
+  color: black;
+  float:left;
+   font-family: 'Lora', serif;
+  font-size: 22px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+/**timeline end**/

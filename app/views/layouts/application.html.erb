@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ictsummit</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:transparent; padding:none; border-color:transparent; border:none;">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="navlink"><a href="#">ABOUT THE SUMMIT <span class="sr-only">(current)</span></a></li>
+        <li class="navlink"><a href="#">CIO FORUM MEMBERS</a></li>
+        <li class="navlink"><a href="#">PROGRAM</a></li>
+        <li class="dropdown navlink">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SPONSORS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">PLATINUM</a></li>
+            <li><a href="#">GOLD</a></li>
+            <li><a href="#">SILVER</a></li>
+            <li><a href="#">SESSION</a></li>
+            <li><a href="#">EXHIBITORS</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+        <li class="navlink"><a href="#">VENUE</a></li>
+      </ul>
+
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<%= yield %>
+	<script type="text/javascript">
+		function checkScroll(){
+		    var startY = $('.navbar').height() * 1.2; //adjusts where transition starts
+
+		    if($(window).scrollTop() > startY){
+		        $('.navbar').addClass("scrolled");
+		    }else{
+		        $('.navbar').removeClass("scrolled");
+		    }
+		}
+
+		if($('.navbar').length > 0){
+		    $(window).on("scroll load resize", function(){
+		        checkScroll();
+		    });
+		}
+		
+	</script>
+</body>
+</html>
