@@ -54,10 +54,12 @@
 .navbar .navbar-collapse {
   text-align: center;
 }
-#index1{
-	height:37vh;
-	background-color: transparent;
+#overlay{
+	height:100%;
+ 	width:100%;
+ 	background-color: rgba(0,0,0,0.6);
 }
+
 #index1title{
     color:black!important;
 	font-family: 'Titillium Web', sans-serif;
@@ -87,9 +89,10 @@
 #landing{
 	height:100vh;
 	background-color: #f2f2f2;
-	background-image: url('/assets/bg3.png');
+	background-image: url('/assets/bg2.jpg');
 	background-size: cover;
-}
+	background-position:center;
+}	
 #index2-1{
 	min-height:100vh;
 	background-color: #f2f2f2;
@@ -107,7 +110,7 @@
     z-index: 9999!important;
 }
 .navbar.scrolled {
-  background-color: rgba(29, 49, 64, 1)!important;
+  background-color: black!important;
 }
 
 .navbar-noscroll {
@@ -118,8 +121,8 @@
   height: 15vh;
   background: 
   linear-gradient(
-    rgba(29, 49, 64, 1), 
-    rgba(29, 49, 64, 1)
+    black, 
+    black
   );
   /*background-image: url('/assets/disrupt2.png');*/
   overflow-y:hidden;
@@ -134,17 +137,17 @@
 }
 .aboutcardin{
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	background-color: rgba(29, 49, 64, 1);
-	height:80vh;
+	background-color: #f2f2f2;
+	height:75vh;
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-	border-radius: 5px;
+	border-radius: 3px;
 	padding-top: 3vh;
 	color:white;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 .aboutcardtitle{
-	color:white!important;
+	color:black!important;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
@@ -154,28 +157,26 @@
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .aboutcardtext{
-	color:white!important;
+	color:black!important;
 	font-family: 'Lora';
 	font-weight: 300;
 	font-size: 14px;
 	letter-spacing: 0px;
 }
-.cf1{
-	min-height:80vh;
-	background-color: #f2f2f2;
-}
+
 .cf2{
 	min-height:125vh;
 	background-color: white;
 }
 .abimg{
 	height:16vw;
-	width: 16vw;
+	width: 100%;
 	background-size: cover;
-	background-image:url('/assets/dps.png');
+	
 	overflow: hidden;
 	background-position: center;
-	border-radius: 50%; 
+	border-radius: 3px; 
+	
 }
 .blink_me {
     -webkit-animation-name: blinker;
