@@ -451,13 +451,11 @@ font-size: 22px;
 /**program section**/
 #programsec{
 	min-height:140vh;
-
+	background-color: #f2f2f2!important;
 	padding-left: 3vw;
 	padding-right:3vw; 
 }
-.tab{
-	margin-top: 0vh;
-}
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
 .blue {
   background: #2196F3;
