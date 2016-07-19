@@ -138,7 +138,7 @@
 .aboutcardin{
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	background-color: white;
-	height:51.5vh;
+	height:62.5vh;
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 	border-radius: 3px;
 	/*padding-top: 3vh;*/
@@ -163,7 +163,10 @@
 	font-size: 14px;
 	letter-spacing: 0px;
 }
-
+.textpadd{
+	margin-top: 1vh;
+	width:90%;
+}
 .cf2{
 	min-height:200vh;
 	background-color: #f2f2f2;
@@ -174,18 +177,21 @@
 	height:40vh;
 	width: 100%;
 	background-size: cover;
-	
+	position:relative;
 	overflow: hidden;
 	background-position: center;
 	border-radius: 3px; 
 }
 .imgoverlay{
-	background-color: rgba(0,0,0,0.0);
-    background: -webkit-linear-gradient(transparent, rgba(0,0,0,0.3));
-    background: linear-gradient(transparent, rgba(0,0,0,0.3));
-    height:100%;
+	background-color: rgba(0,0,0,0.25);
+    background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.4));
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.4));
+    margin-top: 40%;
+    height:60%;
     width:100%;
+    padding-top: 15vh;
 }
+
 .blink_me {
     -webkit-animation-name: blinker;
     -webkit-animation-duration: 2.5s;
