@@ -178,7 +178,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	width:90%;
 }
 .cf2{
-	min-height:200vh;
+	min-height:230vh;
 	background-color: #f2f2f2;
 	padding-left: 5vw;
 	padding-right: 5vw;
@@ -455,7 +455,30 @@ font-size: 22px;
 	padding-left: 3vw;
 	padding-right:3vw; 
 }
+table{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
+}
+#thsc{
+  -moz-border-top-right-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#thb{
+  -moz-border-top-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+#thbl{
+  -moz-border-bottom-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-top-lbottom-radius: 3px;
+}
+#thbr{
+  -moz-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
 .blue {
   background: #2196F3;
