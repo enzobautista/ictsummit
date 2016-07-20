@@ -152,7 +152,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 400;
 	margin-right: 2vw;
 }
 #dblink{
-	  -moz-transition: ease 0.5s all;
+  -moz-transition: ease 0.5s all;
   -o-transition: ease 0.5s all;
   -webkit-transition: ease 0.5s all;
   transition: ease 0.5s all;
@@ -679,24 +679,29 @@ table th, table td {
 	-webkit-filter: grayscale(100%);
 }
 #spons-platinum{
-	height:40vh;
+	min-height:62vh;
 	padding-top: 5vh;
+	background-color: white;
 }
 #spons-gold{
-	height:20vh;
+	height:38vh;
 	padding-top: 5vh;
+	background-color: #f2f2f2;
 }
 #spons-silver{
 	height:20vh;
 	padding-top: 5vh;
+	background-color: white;
 }
 #spons-session{
 	height:20vh;
 	padding-top: 5vh;
+	background-color: #f2f2f2;
 }
 #spons-exhibit{
 	height:20vh;
 	padding-top: 5vh;
+	background-color: white;
 }
 
 .sponsheader{
