@@ -151,6 +151,17 @@ font-family: 'Source Sans Pro', sans-serif;weight: 400;
 	float:right;
 	margin-right: 2vw;
 }
+#dblink{
+	  -moz-transition: ease 0.5s all;
+  -o-transition: ease 0.5s all;
+  -webkit-transition: ease 0.5s all;
+  transition: ease 0.5s all;
+}
+#dblink:hover{
+background-color: transparent;
+text-decoration: none;
+color:#f2f2f2;
+}
 #particles-js{
   overflow-x:hidden;
   width: 100%;
@@ -223,7 +234,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	width:90%;
 }
 .cf2{
-	min-height:295vh;
+	min-height:307vh;
 	background-color: #f2f2f2;
 	padding-left: 5vw;
 	padding-right: 5vw;
@@ -495,11 +506,11 @@ font-size: 22px;
 /**timeline end**/
 /**program section**/
 #programsec{
-	min-height:110vh;
+	min-height:120vh;
 	background-color: #f2f2f2!important;
-	padding-left: 3vw;
-	padding-right:3vw; 
-	padding-top: 0vh;
+	padding-left: 5vw;
+	padding-right:5vw; 
+	padding-top: 1vh;
 }
 table{
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -668,18 +679,31 @@ table th, table td {
 	-webkit-filter: grayscale(100%);
 }
 #spons-platinum{
-	height:100vh;
+	height:40vh;
+	padding-top: 5vh;
 }
 #spons-gold{
-
+	height:20vh;
+	padding-top: 5vh;
 }
 #spons-silver{
-
+	height:20vh;
+	padding-top: 5vh;
 }
 #spons-session{
-
+	height:20vh;
+	padding-top: 5vh;
 }
 #spons-exhibit{
+	height:20vh;
+	padding-top: 5vh;
+}
 
+.sponsheader{
+    color:#212121!important;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	letter-spacing: 1px;
 }
 /**SPONSORS END**/
