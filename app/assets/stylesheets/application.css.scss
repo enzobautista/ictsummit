@@ -495,10 +495,11 @@ font-size: 22px;
 /**timeline end**/
 /**program section**/
 #programsec{
-	min-height:140vh;
+	min-height:110vh;
 	background-color: #f2f2f2!important;
 	padding-left: 3vw;
 	padding-right:3vw; 
+	padding-top: 0vh;
 }
 table{
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -656,3 +657,29 @@ table th, table td {
   opacity: 1;
 }
 /**program sec end**/
+
+/**SPONSORS**/
+#spons-head{
+	height:25vh;
+	background-color: #f2f2f2;
+	background-image: url('/assets/bg3.png');
+	background-size: cover;
+	background-position:center;
+	-webkit-filter: grayscale(100%);
+}
+#spons-platinum{
+	height:100vh;
+}
+#spons-gold{
+
+}
+#spons-silver{
+
+}
+#spons-session{
+
+}
+#spons-exhibit{
+
+}
+/**SPONSORS END**/
