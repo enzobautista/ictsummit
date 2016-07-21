@@ -81,9 +81,10 @@
 }
 #index1text{
     color:#212121!important;
-font-family: 'Source Sans Pro', sans-serif;weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;weight: 400;
 	font-size: 16px;
 	letter-spacing: 0px;
+	text-align: justify;
 }
 #landing{
 	height:100vh;
@@ -720,3 +721,32 @@ table th, table td {
 	letter-spacing: 1px;
 }
 /**SPONSORS END**/
+/**VENUE START**/
+#venue-head{
+	height:25vh;
+	background-color: #f2f2f2;
+	background-image: url('/assets/bg3.png');
+	background-size: cover;
+	background-position:center;
+	-webkit-filter: grayscale(100%);
+}
+.cf3{
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+.venheader{
+    color:#212121!important;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+	letter-spacing: 0px;
+}
+#venue-sec1{
+	min-height:80vh;
+	padding-top: 5vh;
+	background-color: white;
+}
+#over_map { 
+	position: relative; 
+	top: 8px; left: 100px; z-index: 99; }
+/**VENUE END**/

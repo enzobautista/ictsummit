@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   root 'pages#index'
   get '/sponsors', to: "pages#sponsors", as: :sponsors
+  get '/venue', to: "pages#venue", as: :venue
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
