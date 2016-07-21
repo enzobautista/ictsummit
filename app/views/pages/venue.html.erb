@@ -69,21 +69,20 @@
 </section>
 <section id='venue-sec2' class="cf3">
 <center>
-<span class="venheader">TOUR THE VENUE</span> <br><br><br>
+<span class="venheader">EXPLORE THE VENUE</span> <br><br><br>
 	<div class="row">
 	<div class="col-md-2"></div>
 	<div id="dirdiv" class="col-md-8">
 		<div class="inputdiv">
-		<input id="address" type="textbox" placeholder="Ayala Triangle, Ayala Avenue">
-	    <input  class="blue"id="verify"type="button" value="1 Verify" onclick="codeAddress()" style="color:white;">
-	    <input  class="navy"id="getdir"type="button" value="2 Get Directions" onclick="javascript:calcRoute()" class="direct"  style="color:white;">
+		<input  class="purple"id="regis"type="button" value="Registration Area" class="tablinks" onclick="toggletab(event, 'regarea')"  style="color:white;">
+	    <input  class="blue"id="islab"type="button" value="Isla Ballroom" class="tablinks" onclick="toggletab(event, 'islaball')" style="color:white;">
+	    <input  class="navy"id="regis"type="button" value="Palawan Room" class="tablinks" onclick="toggletab(event, 'palawa')"  style="color:white;">
 	    </div>
-	  <div id="latlong" style="display:none;">
-	      <p>Latitude: <input size="20" type="text" id="latbox" name="lat" ></p>
-	      <p>Longitude: <input size="20" type="text" id="lngbox" name="lng" ></p>
-	  </div>
 
-	    <iframe frameborder="0" style="height: 60vh; margin-top:1.4vh; width:100%;" src="https://maps.google.com/maps?layer=c&panoid=F:-IODFb9U_ZAQ%2FV43ccbnwg2I%2FAAAAAAAAAAg%2FlSAIezyGO2cIwjmUxhguSgDlWtXIg93BQCLIB&ie=UTF8&source=embed&output=svembed&cbp=13%2C304%2C%2C0%2C-1.5" allowfullscreen=true></iframe>
+	    <iframe id="regarea"frameborder="0" style="height: 60vh; margin-top:1.4vh; width:100%;" src="https://maps.google.com/maps?layer=c&panoid=F:-IODFb9U_ZAQ%2FV43ccbnwg2I%2FAAAAAAAAAAg%2FlSAIezyGO2cIwjmUxhguSgDlWtXIg93BQCLIB&ie=UTF8&source=embed&output=svembed&cbp=13%2C304%2C%2C0%2C-1.5" allowfullscreen=true class="tabcontent"></iframe>
+	    <iframe id="islaball"frameborder="0" style="height: 60vh; margin-top:1.4vh; width:100%;" src="https://maps.google.com/maps?layer=c&panoid=F:-i0wKseKTgts%2FV43cbjsZiZI%2FAAAAAAAAAAg%2FUF7ptXWJgvcU11-k8iDOd81daAvR2wsIQCLIB&ie=UTF8&source=embed&output=svembed&cbp=13%2C304%2C%2C0%2C-1.5" allowfullscreen=true class="tabcontent"></iframe>
+	    <iframe id="palawa"frameborder="0" style="height: 60vh; margin-top:1.4vh; width:100%;" src="https://maps.google.com/maps?layer=c&panoid=F:-pkQ8UqFX8ZI%2FV43cbbQKx0I%2FAAAAAAAAAAg%2F4k6gacIAYBscQYWGfAuuJj2LrpIzENngACLIB&ie=UTF8&source=embed&output=svembed&cbp=13%2C304%2C%2C0%2C-1.5" allowfullscreen=true class="tabcontent"></iframe>
+
 
 	</div>
 	</div>
@@ -161,5 +160,26 @@ function calcRoute() {                                                          
          directionsDisplay.setDirections(response);
        }
      });
+}
+/**TABS**/
+function toggletab(evt, roomName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(roomName).style.display = "block";
+    evt.currentTarget.className += " active";
 }
 </script>

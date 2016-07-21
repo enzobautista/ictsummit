@@ -779,7 +779,7 @@ table th, table td {
 	border-radius: 3px;
 	width:25%;
 }
-#verify,#getdir{
+#verify,#getdir,#islab,#palawan,#regis{
 	padding-top:6px;
 	padding-bottom: 6px;
 	padding-left: 10px;
@@ -803,5 +803,11 @@ table th, table td {
 	min-height:90vh;
 	padding-top: 0vh;
 	background-color: #f2f2f2;
+}
+#islaball{
+	display:none;
+}
+#palawa{
+	display: none;
 }
 /**VENUE END**/
