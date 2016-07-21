@@ -270,7 +270,12 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	position:relative;
 	overflow: hidden;
 	background-position: center;
-	border-radius: 3px; 
+		  -moz-border-top-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+	  -moz-border-top-right-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
 }
 .imgoverlay{
 	background-color: rgba(0,0,0,0.25);
