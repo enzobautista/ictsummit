@@ -1,5 +1,3 @@
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHq72FEMBzeK2K7gKW5BWejSAAmufrytI&callback=initMap"
-  type="text/javascript"></script>
 <section id="venue-head">
 </section>
 <section id='venue-sec1' class="cf3"><center>
@@ -68,3 +66,5 @@ if (navigator.geolocation) { //Checks if browser supports geolocation
 </script>
 
 <script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(14.5995124,120.9842195),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('map'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(14.5995124,120.9842195)});infowindow = new google.maps.InfoWindow({content:'<strong>ICT Summit 2016</strong><br>ESDA Shangrila Manila<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHq72FEMBzeK2K7gKW5BWejSAAmufrytI&callback=initMap"
+  type="text/javascript"></script>
