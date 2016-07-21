@@ -6,40 +6,71 @@
 
 <section id="venue-head">
 </section>
-<section id='venue-sec1' class="cf3"><center>
-<span class="venheader">1 Garden Way, Ortigas Centre, Mandaluyong City, Manila, 1650 Metro Manila</span></center>
-
+<section id='venue-sec1' class="cf3">
+<center>
+<span class="venheader">1 Garden Way, Ortigas Centre, Mandaluyong City, Manila, 1650 Metro Manila</span> <br><br><br>
 	<div class="row">
 	<div class="col-md-2"></div>
-	<div id="map" class="col-md-8 card2" style=" height: 60vh; margin-top:3vh;">
-    </div>
-    <div id="over_map">
-             <input type="button" value="Get Directions" onclick="javascript:calcRoute()" class="direct" />
-   </div>
-   </div>
+	<div id="dirdiv" class="col-md-8">
+		<div class="inputdiv">
+		<input id="address" type="textbox" value="Ayala Triangle, Ayala Avenue">
+	    <input id="verify"type="button" value="Verify" onclick="codeAddress()">
+	    <input id="getdir"type="button" value="Get Directions" onclick="javascript:calcRoute()" class="direct" />
+	    </div>
+	  <div id="latlong" style="display:none;">
+	      <p>Latitude: <input size="20" type="text" id="latbox" name="lat" ></p>
+	      <p>Longitude: <input size="20" type="text" id="lngbox" name="lng" ></p>
+	  </div>
+
+		<div id="map" class="" style=" height: 60vh; margin-top:1.4vh; width:100%;">
+	    </div>
+
+	</div>
+	</div>
+	</center>
 </section>
 
-<script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(14.5995124,120.9842195),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('map'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(14.5995124,120.9842195)});infowindow = new google.maps.InfoWindow({content:'<strong>ICT Summit 2016</strong><br>ESDA Shangrila Manila<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+<script type='text/javascript'>
+function init_map(){
+	geocoder = new google.maps.Geocoder();
+	var myOptions = {zoom:16,center:new google.maps.LatLng(14.5995124,120.9842195),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('map'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(14.5995124,120.9842195)});infowindow = new google.maps.InfoWindow({content:'<strong>ICT Summit 2016</strong><br>ESDA Shangrila Manila<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+
+ function codeAddress() {
+    var address = document.getElementById('address').value;
+    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        map.setCenter(results[0].geometry.location);
+        var marker = new google.maps.Marker({
+            map: map,
+            position: results[0].geometry.location
+        });
+        document.getElementById("latbox").value = marker.getPosition().lat();
+        document.getElementById("lngbox").value = marker.getPosition().lng();
+
+        google.maps.event.addListener(marker, 'dragend', function (event) {
+            document.getElementById("latbox").value = this.getPosition().lat();
+            document.getElementById("lngbox").value = this.getPosition().lng();
+        });
+      } else {
+        alert('Geocode was not successful for the following reason: ' + status);
+      }
+    });
+  }
+
+  google.maps.event.addListener(marker, 'dragend', function (event) {
+            document.getElementById("latbox").value = this.getPosition().lat();
+            document.getElementById("lngbox").value = this.getPosition().lng();
+        });
 </script>
 
 
 <script type="text/javascript">
 
-function showlocation() {
-   // One-shot position request.
-   navigator.geolocation.getCurrentPosition(callback);
-}
-function callback(position) {
-   document.getElementById('latitude').innerHTML = position.coords.latitude;
-   document.getElementById('longitude').innerHTML = position.coords.longitude;
-}
 var directionsDisplay = new google.maps.DirectionsRenderer();
 var directionsService = new google.maps.DirectionsService();
-function calcRoute() {
-if (navigator.geolocation) { //Checks if browser supports geolocation
-   navigator.geolocation.getCurrentPosition(function (position) {                                                              //This gets the
-     var latitude = position.coords.latitude;                    //users current
-     var longitude = position.coords.longitude;                 //location
+function calcRoute() {                                                           //This gets the
+     var latitude = document.getElementById("latbox").value;                    //users current
+     var longitude = document.getElementById("lngbox").value;                 //location
      var coords = new google.maps.LatLng(latitude, longitude); //Creates variable for map coordinates
      var directionsService = new google.maps.DirectionsService();
      var directionsDisplay = new google.maps.DirectionsRenderer();
@@ -67,9 +98,5 @@ if (navigator.geolocation) { //Checks if browser supports geolocation
          directionsDisplay.setDirections(response);
        }
      });
-   });
- }
 }
 </script>
-
-
