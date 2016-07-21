@@ -257,10 +257,11 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	width:90%;
 }
 .cf2{
-	min-height:391.3vh;
+	min-height:390vh;
 	background-color: #f2f2f2;
 	padding-left: 5vw;
 	padding-right: 5vw;
+	padding-bottom: 1vh;
 }
 .abimg{
 	height:40vh;
@@ -767,7 +768,6 @@ table th, table td {
 #venue-sec1{
 	min-height:90vh;
 	padding-top: 5vh;
-	background-color: white;
 	background-color: #f2f2f2;
 }
 #address{
@@ -795,5 +795,13 @@ table th, table td {
 }
 .inputdiv{
 	
+}
+#map{
+	border-radius: 3px;
+}
+#venue-sec2{
+	min-height:90vh;
+	padding-top: 0vh;
+	background-color: #f2f2f2;
 }
 /**VENUE END**/

@@ -15,17 +15,17 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="navlink">
-        <%= link_to('ABOUT THE SUMMIT', root_path, data: { no_turbolink: true }) %></li>
-        <li class="navlink"><a class="scroll"href="#">CIO FORUM MEMBERS</a></li>
-        <li class="navlink"><a class="scroll"href="#">PROGRAM</a></li>
+        <a class=""href="/#abtthe">ABOUT THE SUMMIT</a></li>
+        <li class="navlink"><a class=""href="/#cioforum">CIO FORUM MEMBERS</a></li>
+        <li class="navlink"><a class=""href="/#programsec">PROGRAM</a></li>
         <li class="dropdown navlink">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SPONSORS <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/sponsors">PLATINUM</a></li>
-            <li><a href="#">GOLD</a></li>
-            <li><a href="#">SILVER</a></li>
-            <li><a href="#">SESSION</a></li>
-            <li><a href="#">EXHIBITORS</a></li>
+            <li><a class=""href="/sponsors/#spons-gold">GOLD</a></li>
+            <li><a class=""href="/sponsors/#spons-silver">SILVER</a></li>
+            <li><a class=""href="/sponsors/#spons-session">SESSION</a></li>
+            <li><a class=""href="/sponsors/#spons-exhibit">EXHIBITORS</a></li>
           </ul>
         </li>
         <li class="navlink"><a href="/venue">VENUE</a></li>
@@ -51,9 +51,9 @@
 	<div class="col-md-2"></div>
 	<div id="dirdiv" class="col-md-8">
 		<div class="inputdiv">
-		<input id="address" type="textbox" value="Ayala Triangle, Ayala Avenue">
-	    <input id="verify"type="button" value="Verify" onclick="codeAddress()">
-	    <input id="getdir"type="button" value="Get Directions" onclick="javascript:calcRoute()" class="direct" />
+		<input id="address" type="textbox" placeholder="ex. Ayala Triangle, Ayala Ave">
+	    <input  class="blue"id="verify"type="button" value="1 Verify" onclick="codeAddress()" style="color:white;">
+	    <input  class="navy"id="getdir"type="button" value="2 Get Directions" onclick="javascript:calcRoute()" class="direct"  style="color:white;">
 	    </div>
 	  <div id="latlong" style="display:none;">
 	      <p>Latitude: <input size="20" type="text" id="latbox" name="lat" ></p>
@@ -62,6 +62,28 @@
 
 		<div id="map" class="" style=" height: 60vh; margin-top:1.4vh; width:100%;">
 	    </div>
+
+	</div>
+	</div>
+	</center>
+</section>
+<section id='venue-sec2' class="cf3">
+<center>
+<span class="venheader">TOUR THE VENUE</span> <br><br><br>
+	<div class="row">
+	<div class="col-md-2"></div>
+	<div id="dirdiv" class="col-md-8">
+		<div class="inputdiv">
+		<input id="address" type="textbox" placeholder="Ayala Triangle, Ayala Avenue">
+	    <input  class="blue"id="verify"type="button" value="1 Verify" onclick="codeAddress()" style="color:white;">
+	    <input  class="navy"id="getdir"type="button" value="2 Get Directions" onclick="javascript:calcRoute()" class="direct"  style="color:white;">
+	    </div>
+	  <div id="latlong" style="display:none;">
+	      <p>Latitude: <input size="20" type="text" id="latbox" name="lat" ></p>
+	      <p>Longitude: <input size="20" type="text" id="lngbox" name="lng" ></p>
+	  </div>
+
+	    <iframe frameborder="0" style="height: 60vh; margin-top:1.4vh; width:100%;" src="https://maps.google.com/maps?layer=c&panoid=F:-IODFb9U_ZAQ%2FV43ccbnwg2I%2FAAAAAAAAAAg%2FlSAIezyGO2cIwjmUxhguSgDlWtXIg93BQCLIB&ie=UTF8&source=embed&output=svembed&cbp=13%2C304%2C%2C0%2C-1.5" allowfullscreen=true></iframe>
 
 	</div>
 	</div>
