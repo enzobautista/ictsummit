@@ -754,6 +754,7 @@ table th, table td {
 	padding-left: 5px;
 	padding-right: 5px;
 	border-radius: 3px;
+	width:25%;
 }
 #verify,#getdir{
 	padding-top:6px;
@@ -765,10 +766,11 @@ table th, table td {
 #dirdiv{
 	background-color: white;
 	padding-bottom: 2vh; 
+	padding-top: 1.4vh; 
 	border-radius: 3px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .inputdiv{
-	margin-top: 1.4vh;
+	
 }
 /**VENUE END**/
