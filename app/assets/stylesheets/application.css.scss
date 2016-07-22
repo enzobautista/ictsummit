@@ -108,13 +108,7 @@ color:white;
 	border-radius: 5px;
 	background-color: rgba(29, 49, 64, 0.1);
 }
-#index1text{
-    color:#212121!important;
-	font-family: 'Source Sans Pro', sans-serif;weight: 400;
-	font-size: 16px;
-	letter-spacing: 0px;
-	text-align: justify;
-}
+
 #landing{
 	height:100vh;
 	background-color: #f2f2f2;
@@ -502,14 +496,7 @@ font-size: 22px;
 
 /**timeline end**/
 /**program section**/
-#programsec{
-	min-height:145vh;
-	background-color: #f2f2f2!important;
-	padding-left: 5vw;
-	padding-right:5vw; 
-	padding-top: 2vh;
-	padding-bottom: 7vh;
-}
+
 table{
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
@@ -806,8 +793,8 @@ table th, table td {
 .cf2{
 	min-height:390vh;
 	background-color: #f2f2f2;
-	padding-left: 8vw;
-	padding-right: 8vw;
+	padding-left:12vw;
+	padding-right:12vw;
 	padding-bottom: 1vh;
 }
 .aboutcardtitle{
@@ -846,6 +833,32 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
   max-height: 239px;
   line-height: 34px;
 }
+#index1text{
+    color:#212121!important;
+	font-family: 'Source Sans Pro', sans-serif;weight: 400;
+	font-size: 20px;
+	letter-spacing: 0px;
+	line-height: 50px;
+}
+.textdiv{
+	text-align: left;
+	text-justify: none;
+}
+.readmore{
+	font-size: 30px;
+	height:20px;
+	width:200px;
+	font-weight: 700;
+	color:#2196F3!important;
+}
+#programsec{
+	min-height:80vh;
+	background-color: #f2f2f2!important;
+	padding-left: 5vw;
+	padding-right:5vw; 
+	padding-top: 2vh;
+	padding-bottom: 7vh;
+}
 /**MOBILE CSS END**/
 
 
@@ -876,6 +889,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	font-weight: 300;
 	font-size: 16px;
 	letter-spacing: 0px;
+	line-height: 16px;
 }
 .imgoverlay{
 	background-color: rgba(0,0,0,0.25);
@@ -895,8 +909,35 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
   text-overflow: ellipsis;
   word-wrap: break-word;
   overflow: hidden;
-  max-height: 75px;
+  max-height: 72px;
+  line-height: 14px;
 }
-
+#index1text{
+    color:#212121!important;
+	font-family: 'Source Sans Pro', sans-serif;weight: 400;
+	font-size: 16px;
+	letter-spacing: 0px;
+	text-align: justify;
+	line-height: 18px;
+}
+.textdiv{
+	text-align: justify!important;
+	text-justify: inter-word;
+}
+.readmore{
+	font-size: 14px;
+	height:20px;
+	width:100px;
+	font-weight: 700;
+	color:#2196F3!important;
+}
+#programsec{
+	min-height:145vh;
+	background-color: #f2f2f2!important;
+	padding-left: 5vw;
+	padding-right:5vw; 
+	padding-top: 2vh;
+	padding-bottom: 7vh;
+}
 }
 /**DESKTOP CSS END**/
