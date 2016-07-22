@@ -26,18 +26,6 @@
 .navlink{
 	margin-top: 1vh;
 }
-.navlink > a{
-	color:white!important;
-    font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 600;
-	font-size: 20px;
-	letter-spacing: 1px;
-	-webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    -ms-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
-}
 .navlink > a:hover{
 	color:#2196F3!important;
 }
@@ -100,23 +88,15 @@ color:white;
 	color:white!important;
     font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 20px;
 	letter-spacing: 1px;
 	border:3px solid white;
 	width:200px;
-	height:40;
+	height:30;
 	border-radius: 5px;
 	background-color: rgba(29, 49, 64, 0.1);
 }
 
-#landing{
-	height:100vh;
-	background-color: #f2f2f2;
-	background-image: url('/assets/bg2.jpg');
-	background-size: cover;
-	background-position:center;
-	background-attachment:fixed;
-}	
 #index2-1{
 	min-height:100vh;
 	background-color: #f2f2f2;
@@ -247,36 +227,36 @@ color:#f2f2f2;
 
 .blink_me {
     -webkit-animation-name: blinker;
-    -webkit-animation-duration: 2.5s;
+    -webkit-animation-duration: 4s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
 
     -moz-animation-name: blinker;
-    -moz-animation-duration: 2.5s;
+    -moz-animation-duration: 4s;
     -moz-animation-timing-function: linear;
     -moz-animation-iteration-count: infinite;
 
     animation-name: blinker;
-    animation-duration: 2.5s;
+    animation-duration: 4s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
 @-moz-keyframes blinker {  
     0% { opacity: 1.0; }
-    50% { opacity: 0.3; }
+    50% { opacity: 0.7; }
     100% { opacity: 1.0; }
 }
 
 @-webkit-keyframes blinker {  
     0% { opacity: 1.0; }
-    50% { opacity: 0.3; }
+    50% { opacity: 0.7; }
     100% { opacity: 1.0; }
 }
 
 @keyframes blinker {  
     0% { opacity: 1.0; }
-    50% { opacity: 0.3; }
+    50% { opacity: 0.7; }
     100% { opacity: 1.0; }
 }
 /**timeline**/
@@ -667,32 +647,6 @@ table th, table td {
 	background-position:center;
 	-webkit-filter: grayscale(100%);
 }
-#spons-platinum{
-	min-height:62vh;
-	padding-top: 5vh;
-	background-color: white;
-}
-#spons-gold{
-	height:38vh;
-	padding-top: 5vh;
-	background-color: #f2f2f2;
-}
-#spons-silver{
-	min-height:60vh;
-	padding-top: 5vh;
-	background-color: white;
-}
-#spons-session{
-	min-height:30vh;
-	padding-top: 5vh;
-	background-color: #f2f2f2;
-}
-#spons-exhibit{
-	min-height:41vh;
-	padding-top: 5vh;
-	background-color: white;
-}
-
 .sponsheader{
 	color:white!important;
     font-family: 'Source Sans Pro', sans-serif;
@@ -771,6 +725,7 @@ table th, table td {
 #venue-sec2{
 	min-height:90vh;
 	padding-top: 0vh;
+	padding-bottom: 8vh;
 	background-color: #f2f2f2;
 }
 #islaball{
@@ -784,7 +739,7 @@ table th, table td {
 /**MOBILE CSS**/
 
 .landing-logo{
-	width:85vw; margin-top:25.5vh;
+	width:85vw; margin-top:12.5vh;
 }
 .cf2{
 	min-height:390vh;
@@ -832,9 +787,9 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 #index1text{
     color:#212121!important;
 	font-family: 'Source Sans Pro', sans-serif;weight: 400;
-	font-size: 20px;
+	font-size: 1.4em;
 	letter-spacing: 0px;
-	line-height: 50px;
+	line-height: 1.3em;
 }
 .textdiv{
 	text-align: left;
@@ -859,6 +814,59 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	margin-top: 1.5vh;
 	width:90%;
 }
+#landing{
+	height:50vh;
+	background-color: #f2f2f2;
+	background-image: url('/assets/bg2.jpg');
+	background-size: cover;
+	background-position:center;
+}	
+.comprow{
+	background-color:transparent;
+	width:100%; 
+	min-height: 17vh; 
+	border-radius:3px; 
+	padding:10px;
+}
+
+#spons-platinum{
+	min-height:48vh;
+	padding-top: 5vh;
+	background-color: white;
+}
+#spons-gold{
+	height:13vh;
+	padding-top: 5vh;
+	background-color: #f2f2f2;
+}
+#spons-silver{
+	min-height:47vh;
+	padding-top: 5vh;
+	background-color: white;
+}
+#spons-session{
+	min-height:27vh;
+	padding-top: 5vh;
+	background-color: #f2f2f2;
+}
+#spons-exhibit{
+	min-height:34vh;
+	padding-top: 5vh;
+	background-color: white;
+}
+
+.navlink > a{
+	color:white!important;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 3em;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
 /**MOBILE CSS END**/
 
 
@@ -867,7 +875,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 @media (min-width: 44em) and (orientation:landscape) { /* For big*/
 
 .landing-logo{
-	width:50vw; margin-top:14.5vh;
+	width:50vw; margin-top:17.5vh;
 	}
 .cf2{
 	min-height:390vh;
@@ -915,10 +923,10 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 #index1text{
     color:#212121!important;
 	font-family: 'Source Sans Pro', sans-serif;weight: 400;
-	font-size: 16px;
+	font-size: 1.5em;
 	letter-spacing: 0px;
 	text-align: justify;
-	line-height: 18px;
+	line-height: 1.3em;
 }
 .textdiv{
 	text-align: justify!important;
@@ -943,5 +951,56 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	margin-top: 2vh;
 	width:90%;
 }
+#landing{
+	height:100vh;
+	background-color: #f2f2f2;
+	background-image: url('/assets/bg2.jpg');
+	background-size: cover;
+	background-position:center;
+	background-attachment:fixed;
+}	
+.comprow{
+	background-color:transparent;width:100%; min-height: 40vh; border-radius:3px; padding:10px;
+}
+
+#spons-platinum{
+	min-height:62vh;
+	padding-top: 5vh;
+	background-color: white;
+}
+#spons-gold{
+	height:38vh;
+	padding-top: 5vh;
+	background-color: #f2f2f2;
+}
+#spons-silver{
+	min-height:60vh;
+	padding-top: 5vh;
+	background-color: white;
+}
+#spons-session{
+	min-height:30vh;
+	padding-top: 5vh;
+	background-color: #f2f2f2;
+}
+#spons-exhibit{
+	min-height:41vh;
+	padding-top: 5vh;
+	background-color: white;
+}
+
+.navlink > a{
+	color:white!important;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
 }
 /**DESKTOP CSS END**/
