@@ -735,7 +735,21 @@ table th, table td {
 	display: none;
 }
 /**VENUE END**/
+/**GIVEAWAYS**/
+#giveaways-head{
+	height:25vh;
+	background-color: #f2f2f2;
+	background-image: url('/assets/bg3.png');
+	background-size: cover;
+	background-position:center;
+	-webkit-filter: grayscale(100%);
+}
+#giveaways-categories{
+	min-height:100vh;
+	background-color: #f2f2f2;
+}
 
+/**GIVEAWAYS END**/
 /**MOBILE CSS**/
 
 .landing-logo{
@@ -859,13 +873,19 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	color:white!important;
     font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 600;
-	font-size: 3em;
+	font-size: 2.8em;
 	letter-spacing: 1px;
 	-webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     -ms-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
+}
+.cf4{
+	background-color: #f2f2f2;
+	padding-left:12vw;
+	padding-right:12vw;
+	padding-bottom: 1vh;
 }
 /**MOBILE CSS END**/
 
@@ -1000,6 +1020,12 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
     -o-transition: all 0.5s ease-out;
     -ms-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
+}
+.cf4{
+	background-color: #f2f2f2;
+	padding-left:5vw;
+	padding-right:5vw;
+	padding-bottom: 1vh;
 }
 
 }

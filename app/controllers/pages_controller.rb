@@ -11,4 +11,8 @@ class PagesController < ApplicationController
    def venue
     render :template => "pages/venue"
   end
+
+  def giveaways
+    render :template => "pages/giveaways"
+  end
 end
