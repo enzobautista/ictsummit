@@ -230,10 +230,6 @@ color:#f2f2f2;
 	font-weight: 700;
 	color:#2196F3!important;
 }
-.textpadd{
-	margin-top: 1vh;
-	width:90%;
-}
 .abimg{
 	height:40vh;
 	width: 100%;
@@ -814,8 +810,8 @@ table th, table td {
 }
 .imgoverlay{
 	background-color: rgba(0,0,0,0.25);
-    background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3));
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3));
+    background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
     margin-top: 0%;
     height:100%;
     width:100%;
@@ -830,7 +826,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
   text-overflow: ellipsis;
   word-wrap: break-word;
   overflow: hidden;
-  max-height: 239px;
+  max-height: 205px;
   line-height: 34px;
 }
 #index1text{
@@ -858,6 +854,10 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	padding-right:5vw; 
 	padding-top: 2vh;
 	padding-bottom: 7vh;
+}
+.textpadd{
+	margin-top: 1.5vh;
+	width:90%;
 }
 /**MOBILE CSS END**/
 
@@ -893,8 +893,8 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 }
 .imgoverlay{
 	background-color: rgba(0,0,0,0.25);
-    background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3));
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3));
+    background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
     margin-top: 0%;
     height:100%;
     width:100%;
@@ -938,6 +938,10 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	padding-right:5vw; 
 	padding-top: 2vh;
 	padding-bottom: 7vh;
+}
+.textpadd{
+	margin-top: 2vh;
+	width:90%;
 }
 }
 /**DESKTOP CSS END**/
