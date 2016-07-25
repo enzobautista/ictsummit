@@ -83,6 +83,7 @@ This year’s Anniversary event will also be highlighted by two very special ple
 	<br>
 <div class="row" class="comprow">
 	<div class="col-md-12">
+	<%=image_tag ('/assets/ayala/ac.png'),:style=>"width:340px; margin-top:-5px;"%><br style="line-height:80px;">
 	<%=image_tag ('/assets/ayala/ali.png'),:style=>"width:240px; margin-top:-5px;"%>
 	
 	<%=image_tag ('/assets/ayala/bpi.jpg'),:style=>"width:240px; margin-top:-10px;"%>
@@ -111,6 +112,22 @@ This year’s Anniversary event will also be highlighted by two very special ple
 <br style="line-height:40px;">
 
 </center>
+  <center>
+  <table border='0' cellpadding='0' cellspacing='0' style="width:100%;">
+    <tr class='days'>
+      <th id="thtop" colspan="7">Legend: Session Tracks</th>
+    </tr>
+    <tr class='days'>
+      <th id="thbl" class="iot">Internet of Things</th>
+      <th class="cc">Cloud Computing</th>
+      <th class="big">Big Data & Analytics</th>
+      <th class="cyber">Cyber Security</th>
+      <th class="hybrid">Transforming to Hybrid Infrastructure</th>
+      <th id="" class="messaging">Messaging, Collaboration & Social Media</th>
+      <th id="thbr" class="blue">General</th>
+    </tr>
+</table>
+  <br style="line-height:30px;">
 <table border='0' cellpadding='0' cellspacing='0'>
     <tr class='days'>
       <th id="thb"></th>
@@ -253,31 +270,20 @@ Can become a truly Data Driven Business to face the challenges today from our sp
     </tr>
     
   </table>
-  <br style="line-height:30px;">
-  <center>
-  <table border='0' cellpadding='0' cellspacing='0' style="width:100%;">
-    <tr class='days'>
-      <th id="thtop" colspan="7">Legend: Session Tracks</th>
-    </tr>
-    <tr class='days'>
-      <th id="thbl" class="iot">Internet of Things</th>
-      <th class="cc">Cloud Computing</th>
-      <th class="big">Big Data & Analytics</th>
-      <th class="cyber">Cyber Security</th>
-      <th class="hybrid">Transforming to Hybrid Infrastructure</th>
-      <th id="" class="messaging">Messaging, Collaboration & Social Media</th>
-      <th id="thbr" class="blue">General</th>
-    </tr>
-</table>
+
 </center>
 </section>
 
 
 <section id="programsec">
-<br><br><br><br>
+<br><br><br>
 <center>
 <div id="index1title">GIVEAWAY GO</div>
+
 <br style="line-height:40px;">
+<div clas="row">
+	<div class="g-maincard col-md-12"></div>
+</div>
 
 </center>
 
@@ -661,7 +667,7 @@ Can become a truly Data Driven Business to face the challenges today from our sp
 <section id="spons-platinum">
 <br>
 	<center>
-		<div class="sponsheader">PLATINUM SPONSORS</div><br>
+		<div class="venheader">PLATINUM SPONSORS</div><br>
 		<div class="row">
 			<div class="col-md-4">
 			<%=image_tag ('/assets/sponsors/plat-accenture.jpg'),:style=>"width:210px; margin-top:5px;"%>
@@ -701,7 +707,7 @@ Can become a truly Data Driven Business to face the challenges today from our sp
 </section>
 <section id="spons-gold">
 	<center>
-		<div class="sponsheader">GOLD SPONSOR</div>
+		<div class="venheader">GOLD SPONSOR</div>
 		<div class="row" style="width:70vw;">
 			<div class="col-md-4"></div>
 			<div class="col-md-4">
@@ -712,7 +718,7 @@ Can become a truly Data Driven Business to face the challenges today from our sp
 </section>
 <section id="spons-silver">
 	<center>
-		<div class="sponsheader">SILVER SPONSORS</div><br><br>
+		<div class="venheader">SILVER SPONSORS</div><br><br>
 		<div class="row">
 			<div class="col-md-3">
 			<%=image_tag ('/assets/sponsors/silver-anaplan.jpg'),:style=>"width:140px; margin-top:5px;"%>
@@ -763,7 +769,7 @@ Can become a truly Data Driven Business to face the challenges today from our sp
 </section>
 <section id="spons-session">
 	<center>
-		<div class="sponsheader">SESSION SPONSORS</div><br><br><br>
+		<div class="venheader">SESSION SPONSORS</div><br><br><br>
 		<div class="row">
 			<div class="col-md-2">
 			<%=image_tag ('/assets/sponsors/session-fpti.png'),:style=>"width:135px; margin-top:-15px;"%>
@@ -788,7 +794,7 @@ Can become a truly Data Driven Business to face the challenges today from our sp
 </section>
 <section id="spons-exhibit">
 	<center>
-		<div class="sponsheader">EXHIBIT SPONSORS</div><br><br><br>
+		<div class="venheader">EXHIBIT SPONSORS</div><br><br><br>
 		<div class="row">
 			<div class="col-md-2">
 			<%=image_tag ('/assets/sponsors/ex-cloud.jpg'),:style=>"width:135px; margin-top:-15px;"%>
@@ -863,9 +869,9 @@ Can become a truly Data Driven Business to face the challenges today from our sp
 	<div class="col-md-2"></div>
 	<div id="dirdiv" class="col-md-8">
 		<div class="inputdiv">
-		<input  class="purple"id="regis"type="button" value="Registration Area" class="tablinks" onclick="toggletab(event, 'regarea')"  style="color:white;">
+		<input  class="blue"id="regis"type="button" value="Registration Area" class="tablinks" onclick="toggletab(event, 'regarea')"  style="color:white;">
 	    <input  class="blue"id="islab"type="button" value="Isla Ballroom" class="tablinks" onclick="toggletab(event, 'islaball')" style="color:white;">
-	    <input  class="navy"id="regis"type="button" value="Palawan Room" class="tablinks" onclick="toggletab(event, 'palawa')"  style="color:white;">
+	    <input  class="blue"id="regis"type="button" value="Palawan Room" class="tablinks" onclick="toggletab(event, 'palawa')"  style="color:white;">
 	    </div>
 
 	    <iframe id="regarea"frameborder="0" style="height: 60vh; margin-top:1.4vh; width:100%;" src="https://maps.google.com/maps?layer=c&panoid=F:-IODFb9U_ZAQ%2FV43ccbnwg2I%2FAAAAAAAAAAg%2FlSAIezyGO2cIwjmUxhguSgDlWtXIg93BQCLIB&ie=UTF8&source=embed&output=svembed&cbp=13%2C304%2C%2C0%2C-1.5" allowfullscreen=true class="tabcontent"></iframe>

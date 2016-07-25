@@ -829,6 +829,13 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	background-color: #f2f2f2!important;
 
 	padding-top: 2vh;
+	padding-bottom: 1vh;
+}
+#g-sec{
+	min-height:50vh;
+	background-color: #f2f2f2!important;
+
+	padding-top: 2vh;
 	padding-bottom: 7vh;
 }
 .textpadd{
@@ -838,7 +845,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 #landing{
 	height:50vh;
 	background-color: #f2f2f2;
-	background-image: url('/assets/bg2.jpg');
+	background-image: url('/assets/giphy.gif');
 	background-size: cover;
 	background-position:center;
 }	
@@ -856,7 +863,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	background-color: white;
 }
 #spons-gold{
-	height:13vh;
+	height:20vh;
 	padding-top: 5vh;
 	background-color: #f2f2f2;
 }
@@ -970,6 +977,13 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	background-color: #f2f2f2!important;
 
 	padding-top: 2vh;
+	padding-bottom: 1vh;
+}
+#g-sec{
+		min-height:60vh;
+	background-color: #f2f2f2!important;
+
+	padding-top: 2vh;
 	padding-bottom: 7vh;
 }
 .textpadd{
@@ -979,7 +993,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 #landing{
 	height:100vh;
 	background-color: #f2f2f2;
-	background-image: url('/assets/bg2.jpg');
+	background-image: url('/assets/giphy.gif');
 	background-size: cover;
 	background-position:center;
 	background-attachment:fixed;
@@ -991,6 +1005,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 #spons-platinum{
 	min-height:62vh;
 	padding-top: 5vh;
+	padding-bottom: 3vh;
 	background-color: white;
 }
 #spons-gold{
@@ -1009,7 +1024,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	background-color: #f2f2f2;
 }
 #spons-exhibit{
-	min-height:41vh;
+	min-height:43vh;
 	padding-top: 5vh;
 	background-color: white;
 }
@@ -1035,3 +1050,10 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 
 }
 /**DESKTOP CSS END**/
+
+/**giveaway css**/
+.g-maincard{
+	height:40vh;
+	background-color: #212121;
+	border-radius: 3px;
+}
