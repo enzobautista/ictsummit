@@ -67,7 +67,7 @@ color:white;
 #overlay{
 	height:100%;
  	width:100%;
- 	background-color: rgba(0,0,0,0.6);
+ 	background-color: rgba(0,0,0,0.35);
 }
 
 #index1title{
@@ -863,14 +863,16 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	background-color: white;
 }
 #spons-gold{
-	height:20vh;
+	min-height:20vh;
 	padding-top: 5vh;
 	background-color: #f2f2f2;
+	padding-bottom: 5vh;
 }
 #spons-silver{
 	min-height:47vh;
 	padding-top: 5vh;
 	background-color: white;
+	padding-bottom: 5vh;
 }
 #spons-session{
 	min-height:27vh;
@@ -901,6 +903,12 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	padding-right:12vw;
 	padding-bottom: 1vh;
 }
+.fujitsu{
+	width:180px; margin-top:0px;
+}
+.intel{
+	width:170px; margin-top:-110px;
+}
 /**MOBILE CSS END**/
 
 
@@ -911,6 +919,12 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 .landing-logo{
 	width:50vw; margin-top:17.5vh;
 	}
+.fujitsu{
+	width:180px; margin-top:-20px;
+}
+.intel{
+	width:170px; margin-top:5px;
+}
 .cf2{
 	min-height:390vh;
 	background-color: #f2f2f2;
@@ -1009,14 +1023,16 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	background-color: white;
 }
 #spons-gold{
-	height:38vh;
+	min-height:35vh;
 	padding-top: 5vh;
 	background-color: #f2f2f2;
+	padding-bottom: 5vh;
 }
 #spons-silver{
 	min-height:60vh;
 	padding-top: 5vh;
 	background-color: white;
+	padding-bottom: 5vh;
 }
 #spons-session{
 	min-height:30vh;
@@ -1053,7 +1069,38 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 
 /**giveaway css**/
 .g-maincard{
-	height:40vh;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
 	background-color: #212121;
 	border-radius: 3px;
+}
+.g-subcard{
+	margin-top: 20px;
+	border-radius: 3px;
+	border:solid 3px transparent;
+	height:40vh;
+	width:100%;
+	background-image: url('/assets/qrcode.png');
+	background-position: center;
+	background-size: cover;
+}
+.g-text{
+	padding-top: 1vh;
+	color:white;
+}
+.g-title{
+	color:white!important;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.g-subtitle{
+	color:white!important;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 16px;
 }
