@@ -963,7 +963,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	width:100%;
 }
 .scroll-div{
-	overflow:auto;
+	overflow-x:auto;
 }
 /**MOBILE CSS END**/
 
@@ -973,7 +973,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 /**DESKTOP CSS**/
 @media (min-width: 44em) and (orientation:landscape) { /* For big*/
 .scroll-div{
-	overflow:auto;
+	overflow-x:auto;
 }
 .landing-logo{
 	width:50vw; margin-top:17.5vh;
@@ -1249,5 +1249,16 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	font-size: 25px;
 	letter-spacing: 1px;
 }
-
+.landingtext{
+	color:#EEEEEE!important;
+font-family: 'Source Sans Pro', sans-serif;weight: 300;
+	font-size: 23px;
+	font-weight: 600;
+	letter-spacing: 0px;
+	  display: block; /* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  line-height: 28px;
+}
 /**MODAL**/
