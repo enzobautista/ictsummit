@@ -909,6 +909,9 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 .intel{
 	width:170px; margin-top:-110px;
 }
+.gg-header{
+	margin-top: 0px;
+}
 /**MOBILE CSS END**/
 
 
@@ -1063,6 +1066,9 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	padding-right:5vw;
 	padding-bottom: 1vh;
 }
+.gg-header{
+	margin-top: 190px;
+}
 
 }
 /**DESKTOP CSS END**/
@@ -1114,4 +1120,27 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	background-position: center;
 	background-size: cover;
 	background-color: #f2f2f2;
+}
+.e-subcard{
+	margin-top: 20px;
+	border:none;
+	height:100px;
+	width:100px;
+	background-image: url('/assets/prizes/bird.png');
+	background-position: center;
+	background-size: cover;
+	background-color: #f2f2f2
+}
+.dlbox{
+	margin-top:20px;
+	height:100px;
+	width:100px;
+	background-color: white;
+}
+.dlheader{
+	color:white!important;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	letter-spacing: 1px;
 }
