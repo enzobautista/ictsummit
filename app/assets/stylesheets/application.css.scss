@@ -973,13 +973,13 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 /**DESKTOP CSS**/
 @media (min-width: 44em) and (orientation:landscape) { /* For big*/
 .scroll-div{
-	overflow:hidden;
+	overflow:auto;
 }
 .landing-logo{
 	width:50vw; margin-top:17.5vh;
 	}
 .legend{
-	width:80%;
+	width:100%;
 }
 .fujitsu{
 	width:180px; margin-top:-20px;
