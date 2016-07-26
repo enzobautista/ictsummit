@@ -959,16 +959,28 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
     width:100%;
     padding-top: 30vh;
 }
+.legend{
+	width:100%;
+}
+.scroll-div{
+	overflow:auto;
+}
 /**MOBILE CSS END**/
+
 
 
 
 /**DESKTOP CSS**/
 @media (min-width: 44em) and (orientation:landscape) { /* For big*/
-
+.scroll-div{
+	overflow:hidden;
+}
 .landing-logo{
 	width:50vw; margin-top:17.5vh;
 	}
+.legend{
+	width:80%;
+}
 .fujitsu{
 	width:180px; margin-top:-20px;
 }
