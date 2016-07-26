@@ -225,6 +225,7 @@ color:#f2f2f2;
   border-top-right-radius: 3px;
 }
 
+
 .blink_me {
     -webkit-animation-name: blinker;
     -webkit-animation-duration: 4s;
@@ -935,7 +936,29 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	width:90%;
 	padding-bottom: 4vh;
 }
-
+.abimg1{
+	height:40vh;
+	width: 100%;
+	background-size: cover;
+	position:relative;
+	overflow: hidden;
+	background-position: center;
+		  -moz-border-top-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+	  -moz-border-top-right-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.imgoverlay1{
+	background-color: rgba(0,0,0,0.25);
+    background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+    margin-top: 0%;
+    height:100%;
+    width:100%;
+    padding-top: 30vh;
+}
 /**MOBILE CSS END**/
 
 
@@ -1105,15 +1128,39 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
   max-height: 100000px;
   line-height: 16px;
 }
-.aboutcard1{
-	margin-top: 12vh;
-	background-color: transparent;
-	
-}
+
 .textpadd1{
 	margin-top: 2vh;
 	width:90%;
 	padding-bottom: 2vh;
+}
+.abimg1{
+	height:60vh;
+	width: 100%;
+	background-size: cover;
+	position:relative;
+	overflow: hidden;
+	background-position: center;
+		  -moz-border-top-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+	  -moz-border-top-right-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.imgoverlay1{
+	background-color: rgba(0,0,0,0.25);
+    background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+    margin-top: 0%;
+    height:100%;
+    width:100%;
+    padding-top: 50vh;
+}
+.aboutcard1{
+	margin-top: 12vh;
+	background-color: transparent;
+	
 }
 
 }
