@@ -912,6 +912,30 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 .gg-header{
 	margin-top: 0px;
 }
+.aboutcardtext1{
+	color:white!important;
+font-family: 'Source Sans Pro', sans-serif;weight: 300;
+	font-size: 30px;
+	letter-spacing: 0px;
+	  display: block; /* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 100000px;
+  line-height: 34px;
+}
+.aboutcard1{
+	margin-top: 17vh;
+	background-color: transparent;
+	margin-right: 10vw;
+	margin-left: 10vw;
+}
+.textpadd1{
+	margin-top: 4vh;
+	width:90%;
+	padding-bottom: 4vh;
+}
+
 /**MOBILE CSS END**/
 
 
@@ -1069,6 +1093,28 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 .gg-header{
 	margin-top: 190px;
 }
+.aboutcardtext1{
+	color:white!important;
+font-family: 'Source Sans Pro', sans-serif;weight: 300;
+	font-size: 14px;
+	letter-spacing: 0px;
+	  display: block; /* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 100000px;
+  line-height: 16px;
+}
+.aboutcard1{
+	margin-top: 12vh;
+	background-color: transparent;
+	
+}
+.textpadd1{
+	margin-top: 2vh;
+	width:90%;
+	padding-bottom: 2vh;
+}
 
 }
 /**DESKTOP CSS END**/
@@ -1144,3 +1190,5 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	font-size: 25px;
 	letter-spacing: 1px;
 }
+
+/**MODAL**/
