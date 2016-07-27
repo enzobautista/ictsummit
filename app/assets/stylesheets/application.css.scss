@@ -1039,7 +1039,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	background-color: #f2f2f2
 }
 .g-text{
-	padding-top: 4vh;
+	padding-top: 1vh;
 	height:23vh;
 	color:white;
 	padding-bottom: 1vh;
@@ -1073,10 +1073,10 @@ height:230px;
 	margin-top: -180px;
 }
 .fspacer2{
-margin-top: -70px;
+margin-top: 30px;
 }
 .g-subcard{
-	margin-top: 20px;
+	margin-top: 30px;
 	border-radius: 3px;
 	border:solid 3px transparent;
 	height:150px;
@@ -1115,7 +1115,7 @@ margin-top: -70px;
 	margin-top: 0px;
 }
 .fspacer2{
-	margin-top: -30px;
+	margin-top: -50px;
 }
 .bags{
 height:130px;
@@ -1141,7 +1141,13 @@ height:130px;
 }
 .g-text{
 	padding-top: 1vh;
-	height:22vh;
+	height:30vh;
+	color:white;
+	padding-bottom:0vh; 
+}
+.g-text5{
+	padding-top: 1vh;
+	
 	color:white;
 	padding-bottom:0vh; 
 }
