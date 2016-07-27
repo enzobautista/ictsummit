@@ -1064,13 +1064,26 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 height:230px;
 }
 .fspacer{
-	margin-top: -100px;
+	margin-top: -110px;
 }
 .fspacer1{
 	margin-top: -180px;
 }
 .fspacer2{
 margin-top: -70px;
+}
+.g-subcard{
+	margin-top: 20px;
+	border-radius: 3px;
+	border:solid 3px transparent;
+	height:150px;
+	width:150px;
+	background-image: url('/assets/qrcode.png');
+	background-position: center;
+	background-size: cover;
+}
+.gg-header3{
+	margin-top: 0px!important;
 }
 /**MOBILE CSS END**/
 
@@ -1081,6 +1094,16 @@ margin-top: -70px;
 @media (min-width: 44em) and (orientation:landscape) { /* For big*/
 .scroll-div{
 	overflow-x:auto;
+}
+.g-subcard{
+	margin-top: 20px;
+	border-radius: 3px;
+	border:solid 3px transparent;
+	height:25vh;
+	width:60%;
+	background-image: url('/assets/qrcode.png');
+	background-position: center;
+	background-size: cover;
 }
 .fspacer{
 	margin-top: 0px;
@@ -1334,6 +1357,9 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 .gg-header2{
 	margin-top: 315px!important;
 }
+.gg-header3{
+	margin-top: 315px!important;
+}
 .g-souvenir{
 	min-height:300px;
 }
@@ -1395,16 +1421,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	background-color: #212121;
 	border-radius: 3px;
 }
-.g-subcard{
-	margin-top: 20px;
-	border-radius: 3px;
-	border:solid 3px transparent;
-	height:25vh;
-	width:60%;
-	background-image: url('/assets/qrcode.png');
-	background-position: center;
-	background-size: cover;
-}
+
 
 .g-prizecard{
 	margin-top: 20px;
