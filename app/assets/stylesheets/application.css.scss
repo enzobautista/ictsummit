@@ -1063,6 +1063,15 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 .bags{
 height:230px;
 }
+.fspacer{
+	margin-top: -100px;
+}
+.fspacer1{
+	margin-top: -180px;
+}
+.fspacer2{
+margin-top: -70px;
+}
 /**MOBILE CSS END**/
 
 
@@ -1072,6 +1081,15 @@ height:230px;
 @media (min-width: 44em) and (orientation:landscape) { /* For big*/
 .scroll-div{
 	overflow-x:auto;
+}
+.fspacer{
+	margin-top: 0px;
+}
+.fspacer1{
+	margin-top: 0px;
+}
+.fspacer2{
+	margin-top: 0px;
 }
 .bags{
 height:130px;
@@ -1392,8 +1410,8 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	margin-top: 20px;
 	border-radius: 3px;
 	border:solid 3px transparent;
-	height:25vh;
-	width:60%;
+	height:180px;
+	width:180px;
 	/*background-image: url('/assets/qrcode.png');*/
 	background-position: center;
 	background-size: cover;
