@@ -917,6 +917,15 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 .gg-header{
 	margin-top: 0px;
 }
+.gg-header1{
+	margin-top: 40px;
+}
+.gg-header2{
+	margin-top: 5px!important;
+}
+.g-souvenir{
+	min-height:500px;
+}
 .aboutcardtext1{
 	color:white!important;
 font-family: 'Source Sans Pro', sans-serif;weight: 300;
@@ -1051,6 +1060,9 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	color:white;
 	padding-bottom:0vh; 
 }
+.bags{
+height:230px;
+}
 /**MOBILE CSS END**/
 
 
@@ -1060,6 +1072,9 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 @media (min-width: 44em) and (orientation:landscape) { /* For big*/
 .scroll-div{
 	overflow-x:auto;
+}
+.bags{
+height:130px;
 }
 .g-text2{
 	padding-top: 1vh;
@@ -1294,6 +1309,15 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 }
 .gg-header{
 	margin-top: 470px;
+}
+.gg-header1{
+	margin-top: 40px;
+}
+.gg-header2{
+	margin-top: 315px!important;
+}
+.g-souvenir{
+	min-height:300px;
 }
 .aboutcardtext1{
 	color:white!important;
