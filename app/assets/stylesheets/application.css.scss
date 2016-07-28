@@ -693,20 +693,7 @@ table th, table td {
 	padding-left: 5vw;
 	padding-right: 5vw;
 }
-.venheader{
-	color:white!important;
-    font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 25px;
-	letter-spacing: 1px;
-	background-color: #212121;
-	min-height:50px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	width:70%;
-	line-height: 30px;
-	border-radius: 3px;
-}
+
 #venue-sec1{
 	min-height:90vh;
 	padding-top: 5vh;
@@ -1098,6 +1085,27 @@ margin-top: 30px;
 .gg-header3{
 	margin-top: 0px!important;
 }
+.venheader{
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	letter-spacing: 1px;
+	background-color: #212121;
+	min-height:50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width:70%;
+	line-height: 30px;
+	border-radius: 3px;
+}
+.dlheader{
+	color:white!important;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 45px;
+	letter-spacing: 1px;
+}
 /**MOBILE CSS END**/
 
 
@@ -1107,6 +1115,26 @@ margin-top: 30px;
 @media (min-width: 44em) and (orientation:landscape) { /* For big*/
 .scroll-div{
 	overflow-x:auto;
+}
+.dlheader{
+	color:white!important;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+.venheader{
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 1px;
+	background-color: #212121;
+	min-height:50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width:70%;
+	line-height: 30px;
+	border-radius: 3px;
 }
 .g-subcard{
 	margin-top: 20px;
@@ -1461,13 +1489,7 @@ font-family: 'Source Sans Pro', sans-serif;weight: 300;
 	width:100px;
 	background-color: white;
 }
-.dlheader{
-	color:white!important;
-    font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 25px;
-	letter-spacing: 1px;
-}
+
 .landingtext{
 	color:#EEEEEE!important;
 font-family: 'Source Sans Pro', sans-serif;weight: 300;
